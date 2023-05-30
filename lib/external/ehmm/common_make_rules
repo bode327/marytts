@@ -1,0 +1,136 @@
+#  Include project specific rules
+
+-include $(TOP)/config/project.mak
+
+## User defined configuration options
+#include $(TOP)/config/config
+
+# System type
+#include $(ESTDIR)/config/system.mak
+
+ifeq ($(SYSTEM_LOADED),)
+	MACHINETYPE=unknown
+	OSTYPE=unknown
+	OSREV=
+endif
+
+all: .make_build_dirs $(ALL) nothing
+
+nothing:
+	@ echo > /dev/null
+
+.build_lib: $(OBJS)
+	$(AR) cruv $(TOP)/lib/lib$(LIBNAME).a $(OBJS)
+	$(RANLIB) $(TOP)/lib/lib$(LIBNAME).a
+	touch .build_lib
+
+.make_build_dirs:
+	@ echo making in $(DIRNAME) ...
+ifdef BUILD_DIRS
+	@ for i in $(BUILD_DIRS) ; \
+	do \
+	   $(MAKE) -C $$i --no-print-directory; \
+	done
+endif
+
+clean:
+	@ echo make clean in $(DIRNAME) ...
+	@rm -f *.o *.a *~ $(LOCAL_CLEAN)
+ifdef BUILD_DIRS
+	@ for i in $(BUILD_DIRS) ; \
+	do \
+	   $(MAKE) -C $$i --no-print-directory clean; \
+	done
+endif
+
+commit:
+	cvs commit
+update:
+	cvs update
+
+#######################################################################
+###   Making dependencies
+#######################################################################
+
+## This is a piece of rjc magic taken from "Milton" which means it
+## must have been in xmg.
+
+DEPEND=make.depend
+MAKE_DEPEND=$(CC) -MM $(CFLAGS)
+ALL_DEPEND = $(SRCS) $(H)
+
+depend:
+	@ $(RM) -f $(DEPEND)
+	@ # a little hack to get it to remake make.depend
+	@ $(MAKE) nothing
+ifdef ALL_DIRS
+	@ for i in $(ALL_DIRS) ; \
+	do \
+	   $(MAKE) --no-print-directory -C $$i depend ; \
+	done
+endif
+
+$(DEPEND): $(ALL_DEPEND) 
+	@if [ ! -f $(DEPEND) ] ;\
+		then \
+		{ \
+		echo ' ######################################################################' ;\
+		echo ' # ' ;\
+		echo ' # 	Dependencies created for inclusion in $(SELF).' ;\
+		echo " #		`date`" ;\
+		echo ' # ' ;\
+		echo ' ######################################################################' ;\
+		echo '' ;\
+		} > $(DEPEND) ;\
+	fi
+	@chmod +w $(DEPEND)
+	@for i in  $? ;\
+		do \
+		case $$i in \
+		*.c )   base=`basename $$i .c`; \
+			{ \
+			awk 'BEGIN {s=0} \
+			     s==0 && $$1=="#" && $$2=="'$${base}'" {s=1;next} \
+			     s==0 {print; next} \
+			     s==1 && NF==0 {s=2; next} \
+			     s==2 && NF==0 {s=3; next} \
+			     s==3 {print}' \
+				$(DEPEND) ;\
+			echo "# $${base} `date`" ;\
+			echo ;\
+			$(MAKE_DEPEND) $(DEPEND_FLAGS) $$i ; \
+			echo ;\
+			} > "#xxxx" ;\
+			mv "#xxxx" $(DEPEND) ;;\
+		esac ;\
+	done
+	@chmod -w $(DEPEND)
+
+file-list:
+	@ echo making file-list in $(DIRNAME) ...
+	@ for f in $(FILES) ; \
+	do \
+	   echo $(DIRNAME)/$$f >>$(TOP)/FileList ; \
+	done 
+ifdef ALL_DIRS
+	@ for i in $(ALL_DIRS) ; \
+	do \
+	   $(MAKE) -C $$i --no-print-directory file-list; \
+	done
+endif
+
+info:
+	@echo Project Name = $(PROJECT_NAME)
+	@echo Project Prefix = $(PROJECT_PREFIX)
+	@echo Project Version = $(PROJECT_VERSION)
+	@echo Project Date = $(PROJECT_DATE)
+	@echo Project State = $(PROJECT_STATE)
+	@echo
+	@echo Configuration Variables
+	#@echo ESTDIR = $(ESTDIR)
+	#@echo FESTDIR = $(FESTDIR)
+
+# If there are sources in this directory, load in the dependencies
+ifdef SRCS
+include $(DEPEND)
+endif

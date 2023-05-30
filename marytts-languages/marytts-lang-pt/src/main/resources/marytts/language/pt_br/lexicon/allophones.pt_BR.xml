@@ -1,0 +1,60 @@
+<allophones name="sampa" xml:lang="pt-BR" features="vlng vheight vfront vrnd ctype cplace cvox">
+
+	<!--vheight:[1,4]; vfront:[1,3]; vrnd:(-,+); stressed:(-,+) -->
+	<!--ctype:(s, f, a, n, l, r) - consonant type: stop fricative affricative
+		nasal liquid approximant -->
+	<!--cplace:(l, a, p, b, d, v) - place of articulation: bilabial alveolar
+		palatal labio-dental dental velar -->
+	<!--cvox:(-,+); long:(-,+) -->
+
+	<silence ph="_" />
+	
+	<!-- Oral vowels -->
+	<vowel ph="a" vlng ="s" vheight ="3" vfront ="1" vrnd ="−"/>
+	<vowel ph="E" vlng ="s" vheight ="2" vfront ="1" vrnd ="−"/>
+	<vowel ph="e" vlng ="s" vheight ="2" vfront ="1" vrnd ="−"/>
+	<vowel ph="i" vlng ="s" vheight ="1" vfront ="1" vrnd ="−"/>
+	<vowel ph="O" vlng ="s" vheight ="2" vfront ="3" vrnd ="+"/>
+	<vowel ph="o" vlng ="s" vheight ="2" vfront ="3" vrnd ="+"/>
+	<vowel ph="u" vlng ="s" vheight ="1" vfront ="3" vrnd ="+"/>
+	<!-- Nasal vowels-->
+	<vowel ph="a~" vlng ="l" vheight ="3" vfront ="2" vrnd ="−"/>
+	<vowel ph="e~" vlng ="l" vheight ="2" vfront ="2" vrnd ="−"/>
+	<vowel ph="i~" vlng ="l" vheight ="1" vfront ="2" vrnd ="−"/>
+	<vowel ph="o~" vlng ="l" vheight ="2" vfront ="3" vrnd ="+"/>
+	<vowel ph="u~" vlng ="l" vheight ="1" vfront ="3" vrnd ="−"/>
+	<!-- Semi−vowels-->
+	<vowel ph="w" vlng ="d" vheight ="2" vfront ="2" vrnd ="0" ctype ="v" />
+	<vowel ph="j" vlng ="d" vheight ="2" vfront ="2" vrnd ="0" ctype ="p" />
+	<vowel ph="w~" vlng ="d" vheight ="2" vfront ="2" vrnd ="0" ctype ="v" />
+	<vowel ph="j~" vlng ="d" vheight ="2" vfront ="2" vrnd ="0" ctype ="p" />
+	<!-- Unvoiced fricatives -->
+	<consonant ph="f" ctype ="f" cplace ="b" cvox="−"/>
+	<consonant ph="s" ctype ="f" cplace ="a" cvox="−"/>
+	<consonant ph="S" ctype ="f" cplace ="p" cvox="−"/>
+	<!-- Voiced fricatives -->
+	<consonant ph="z" ctype ="f" cplace ="a" cvox="+"/>
+	<consonant ph="v" ctype ="f" cplace ="b" cvox="+"/>
+	<consonant ph="Z" ctype ="f" cplace ="p" cvox="+"/>
+	<!-- Affricatives -->
+	<consonant ph="tS" ctype ="a" cplace ="p" cvox="−"/>
+	<consonant ph="dZ" ctype ="a" cplace ="p" cvox="+"/>
+	<!-- Plosives -->
+	<consonant ph="b" ctype ="s" cplace ="l" cvox="+"/>
+	<consonant ph="d" ctype ="s" cplace ="l" cvox="+"/>
+	<consonant ph="t" ctype ="s" cplace ="d" cvox="−"/>
+	<consonant ph="k" ctype ="s" cplace ="v" cvox="−"/>
+	<consonant ph="g" ctype ="s" cplace ="v" cvox="+"/>
+	<consonant ph="p" ctype ="s" cplace ="l" cvox="−"/>
+	<!-- Liquids -->
+	<consonant ph="l" ctype ="l" cplace ="a" cvox="+"/>
+	<consonant ph="L" ctype ="l" cplace ="p" cvox="+"/>
+	<consonant ph="R" ctype ="l" cplace ="a" cvox="+"/>
+	<consonant ph="X" ctype ="l" cplace ="a" cvox="+"/>
+	<consonant ph="r" ctype ="l" cplace ="a" cvox="+"/>
+	<!-- Nasal consoants -->
+	<consonant ph="m" ctype ="n" cplace ="l" cvox="+"/>
+	<consonant ph="n" ctype ="n" cplace ="a" cvox="+"/>
+	<consonant ph="J" ctype ="n" cplace ="p" cvox="+"/>
+	
+</allophones>

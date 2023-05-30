@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/marytts-assembly/assembly-builder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-assembly/assembly-builder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-assembly/assembly-runtime/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-assembly/assembly-runtime/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-assembly/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-assembly/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-builder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-builder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-de/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-de/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-en/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-en/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-fr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-fr/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-it/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-it/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-lb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-lb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-pt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-pt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-ru/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-ru/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-sv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-sv/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-te/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-te/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-tr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/marytts-lang-tr/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-languages/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-redstart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-redstart/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-runtime/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-runtime/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-signalproc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-signalproc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-transcription/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marytts-transcription/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/voice-cmu-slt-hsmm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/voice-cmu-slt-hsmm/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Groovy-Eclipse" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="marytts-builder" />
+        <module name="marytts-client" />
+        <module name="marytts-lang-lb" />
+        <module name="marytts-redstart" />
+        <module name="marytts-transcription" />
+        <module name="marytts-lang-ru" />
+        <module name="marytts-lang-sv" />
+        <module name="marytts-lang-pt" />
+        <module name="marytts-lang-tr" />
+        <module name="marytts-lang-de" />
+        <module name="marytts-common" />
+        <module name="marytts-lang-it" />
+        <module name="marytts-runtime" />
+        <module name="marytts-lang-fr" />
+        <module name="marytts-lang-en" />
+        <module name="marytts-signalproc" />
+        <module name="voice-cmu-slt-hsmm" />
+        <module name="marytts-lang-te" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.6" />
+  </component>
+  <component name="GreclipseSettings">
+    <option name="greclipsePath" value="$PROJECT_DIR$/../../../home/judilson/.m2/repository/org/codehaus/groovy/groovy-eclipse-batch/2.3.7-01/groovy-eclipse-batch-2.3.7-01.jar" />
+  </component>
+</project>

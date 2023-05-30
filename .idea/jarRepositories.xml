@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-languages\marytts-lang-pt/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-languages\marytts-lang-fr/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-assembly/assembly-runtime/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-client/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-languages/marytts-lang-tr/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-languages/marytts-lang-en/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-languages\marytts-lang-ru/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-assembly/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-builder/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-builder/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-languages/marytts-lang-fr/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-signalproc/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-client/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-common/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-languages/marytts-lang-ru/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-assembly\assembly-runtime/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-languages/marytts-lang-it/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-languages\marytts-lang-tr/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-languages/marytts-lang-sv/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-languages/marytts-lang-lb/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-redstart/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-assembly/assembly-builder/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-assembly/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-languages\marytts-lang-te/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-languages\marytts-lang-it/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-languages/marytts-lang-de/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-common/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-transcription/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-redstart/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-signalproc/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-languages/marytts-lang-pt/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\voice-cmu-slt-hsmm/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/voice-cmu-slt-hsmm/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-languages/marytts-lang-te/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-assembly\assembly-builder/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-languages\marytts-lang-de/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-runtime/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-languages\marytts-lang-en/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file:///voice/sources/marytts/marytts-languages/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-languages\marytts-lang-sv/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-languages/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-languages\marytts-lang-lb/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="jcenter" />
+      <option name="url" value="https://jcenter.bintray.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-transcription/../lib/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="file://D:\marytts-5.2\marytts-runtime/../lib/repo" />
+    </remote-repository>
+  </component>
+</project>

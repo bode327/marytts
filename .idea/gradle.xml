@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/marytts-assembly" />
+            <option value="$PROJECT_DIR$/marytts-assembly/assembly-builder" />
+            <option value="$PROJECT_DIR$/marytts-assembly/assembly-runtime" />
+            <option value="$PROJECT_DIR$/marytts-builder" />
+            <option value="$PROJECT_DIR$/marytts-client" />
+            <option value="$PROJECT_DIR$/marytts-languages" />
+            <option value="$PROJECT_DIR$/marytts-languages/marytts-lang-de" />
+            <option value="$PROJECT_DIR$/marytts-languages/marytts-lang-en" />
+            <option value="$PROJECT_DIR$/marytts-languages/marytts-lang-fr" />
+            <option value="$PROJECT_DIR$/marytts-languages/marytts-lang-it" />
+            <option value="$PROJECT_DIR$/marytts-languages/marytts-lang-lb" />
+            <option value="$PROJECT_DIR$/marytts-languages/marytts-lang-pt" />
+            <option value="$PROJECT_DIR$/marytts-languages/marytts-lang-ru" />
+            <option value="$PROJECT_DIR$/marytts-languages/marytts-lang-sv" />
+            <option value="$PROJECT_DIR$/marytts-languages/marytts-lang-te" />
+            <option value="$PROJECT_DIR$/marytts-languages/marytts-lang-tr" />
+            <option value="$PROJECT_DIR$/marytts-redstart" />
+            <option value="$PROJECT_DIR$/marytts-runtime" />
+            <option value="$PROJECT_DIR$/marytts-transcription" />
+            <option value="$PROJECT_DIR$/voice-cmu-slt-hsmm" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
