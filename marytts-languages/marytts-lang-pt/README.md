@@ -1,10 +1,7 @@
-# MaryTTS language components for Hindi
+# MaryTTS language components for Portuguese Brasil
 
-Developed by Sathish Pammi for the Blizzard Challenge 2013 [[1]](#paper).
+Developed by GUILHERME RODRIGUES BUMRAD, JOSUE LUIZ ALBUQUERQUE DA SILVA and JUDILSON JOSE DA COSTA JUNIOR
 
-*Provided as is, YMMV.*
-
-<a name="paper">[1]</a> Marcela Charfuelan, Sathish Pammi, Ingmar Steiner,
-"MARY TTS unit selection and HMM-based voices for the Blizzard Challenge 2013",
-Proc. Blizzard Challenge Workshop 2013, Barcelona, Spain.
-[[PDF]](http://festvox.org/blizzard/bc2013/DFKI_Blizzard2013.pdf)
+CENTRO ESTADUAL DE EDUCAÇÃO TECNOLÓGICA PAULA SOUZA
+Faculdade de Tecnologia de Santana de Parnaíba
+Curso Superior de Tecnologia em Ciências de Dados
